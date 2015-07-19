@@ -169,14 +169,14 @@ Open file **c:\vagrant\telescope\mup.js**
 }
 ```
 
-#### 2.2.4 Configure target server with mup
+#### 2.2.3 Configure target server with mup
 ```sh
 sudo rsync -rtvu /vagrant/telescope/ /home/vagrant/telescope/
 cd /home/vagrant/telescope
 sudo mup setup
 ```
 
-#### 2.2.5 Now run the deploy
+#### 2.2.4 Now run the deploy
 ```sh
 sudo mup deploy
 ```
